@@ -1,13 +1,19 @@
 
 import React from "react";
 import './../styles/App.css';
+import BookList from "./BookList";
 
-const App = () => {
+function App() {
+
   return (
-    <div>
-        {/* Do not remove the main div */}
+    <>
+      <div className="App">
+        <h1 className="text-2xl font-bold text-center my-6">Books List</h1>
+        <BookList />
     </div>
+    </>
   )
 }
 
 export default App
+
