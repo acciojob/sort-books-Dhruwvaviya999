@@ -18,7 +18,11 @@
     "react-dom": "^16.13.1",
     "style-loader": "^1.2.1",
     "webpack-cli": "^3.3.12",
-    "cypress": "^9.5.0"
+    "cypress": "^9.5.0",
+    "@tailwindcss/vite": "^4.1.8",
+    "axios": "^1.9.0",
+    "redux": "^5.0.1",
+    "tailwindcss": "^4.1.8"
   },
   "jest": {
     "moduleNameMapper": {
